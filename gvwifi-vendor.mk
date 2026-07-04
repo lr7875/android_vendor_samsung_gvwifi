@@ -21,4 +21,4 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/gvwifi/overlay
 
 $(call inherit-product, vendor/samsung/gvwifi/gvwifi-vendor-blobs.mk)
-$(call inherit-product, vendor/samsung/exynos7580-common/exynos7580-common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/universal7580-common/universal7580-common-vendor.mk)
